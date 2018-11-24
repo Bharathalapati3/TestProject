@@ -1,4 +1,4 @@
-# hello-world
-Just Another repository
+# TestProject
+My Repository
 Hi,
 Bharath here, just new to this.
