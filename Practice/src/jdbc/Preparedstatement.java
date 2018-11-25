@@ -24,7 +24,7 @@ public class Preparedstatement {
 		Statement stmt1 = con.createStatement();
 		
 		ResultSet rs = stmt.executeQuery("Select * from emp_info");
-		while(rs.next())
+		while(rs.next())   
 			System.out.println(rs.getInt(1)+"  "+rs.getString(2)+"  "+rs.getString(3)+"  "+rs.getString(4)+"  "+rs.getInt(5));
 				
 		}catch(Exception e){ System.out.println(e);}
