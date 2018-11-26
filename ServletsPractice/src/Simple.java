@@ -22,7 +22,7 @@ public class Simple extends HttpServlet {
 			  
 			//writing html in the stream  
 			pw.println("<html><body>");  
-			pw.println("Welcome to servlet");  
+			pw.println("<h1>Welcome to Servlets<h1>");  
 			pw.println("</body></html>");  
 			  
 			pw.close();//closing the stream  
